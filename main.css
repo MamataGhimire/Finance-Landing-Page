@@ -1,0 +1,45 @@
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    height: 100vh;
+    background-color: black;
+}
+
+.green {
+    display: flex;
+
+}
+
+.green img {
+    margin-left: auto;
+}
+
+.center {
+
+    height: 55%;
+    width: 75%;
+    background-color: #1D1D1D;
+    margin-left: 10%;
+    box-shadow: 0px 24px 62px 14px rgba(41, 1, 50, 0.32);
+    border-radius: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-social
+{
+    display: flex;
+    gap: 15px;
+}
+
+.icons-social img
+{
+  height: 18px;
+}
